@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>navBar</title>
+</head>
+<style>
+
+    #nav_bar{
+        display: flex;
+         background: #333;
+
+    }
+
+    #nav_bar1{
+        width: 80%;
+        color: #fff;
+
+
+    }
+    #nav_bar2 {
+        display: flex;
+        position: sticky;
+        {#top:0;#}
+        color: #fff;
+        justify-content: space-between;
+        z-index: 1;
+        padding: 1rem;
+        width: 100%;
+        text-align: right;
+    }
+
+    #nav_bar2 li{
+        text-decoration-line: none;
+    }
+</style>
+<body>
+
+    <div id="nav_bar">
+        <div id="nav_bar1">
+            <h2> Logo </h2>
+        </div>
+
+        <div>
+            <ul  id="nav_bar2">
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+        </div>
+
+    </div>
+</body>
+</html>

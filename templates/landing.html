@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>landing page</title>
+</head>
+<body>
+
+{% block content %}
+      <h1>
+    Welcome to my landing page!
+</h1>
+{{request.user}}
+<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat doloremque veniam
+    nisi sit neque necessitatibus dignissimos, nulla et exercitationem dolorum?
+</p>
+{% endblock  %}
+
+
+</body>
+</html>
